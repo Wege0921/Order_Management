@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-01 20:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+
+msgid "Middle Name"
+msgstr "የአባት ስም"
+
+msgid "Role"
+msgstr "ሚና"
+
+msgid "Phone Number"
+msgstr "ስልክ ቁጥር"
+
+msgid "City"
+msgstr "ከተማ"
+
+msgid "Sub City"
+msgstr "ክፍለ ከተማ"
+
+msgid "Woreda"
+msgstr "ወረዳ"
+
+msgid "Ketena"
+msgstr "ቀተና"
+
+msgid "House Number"
+msgstr "የቤት ቁጥር"
+
+msgid "Customer"
+msgstr "ደንበኛ"
+
+msgid "Driver"
+msgstr "ሹፌር"
+
+msgid "Admin"
+msgstr "አስተዳዳሪ"
+
+msgid "Regulatory Body"
+msgstr "የምርመራ አካል"
+
+msgid "License Number"
+msgstr "የፈቃድ ቁጥር"
+
+msgid "Device Type"
+msgstr "የመሣሪያ አይነት"
+
+msgid "Plate Number"
+msgstr "የመኪና ቁጥር"
+
+msgid "Item"
+msgstr "እቃ"
+
+msgid "Measurement"
+msgstr "መለኪያ"
+
+msgid "Quantity"
+msgstr "ብዛት"
+
+msgid "Unit Price"
+msgstr "የአንድ አሃድ ዋጋ"
+
+msgid "Total Price"
+msgstr "ጠቅላላ ዋጋ"
+
+msgid "Assigned Date"
+msgstr "የተመደበበት ቀን"
+
+msgid "Assigned Time"
+msgstr "የተመደበበት ሰዓት"
+
+msgid "Status"
+msgstr "ሁኔታ"
+
+msgid "Scheduled"
+msgstr "ተዘጋጅቷል"
+
+msgid "In Transit"
+msgstr "በመጓጓዣ ላይ"
+
+msgid "Delivered to Customer"
+msgstr "ለደንበኛ ተደርሷል"
+
+msgid "Delivered to Team Leader"
+msgstr "ለቡድን መሪ ተደርሷል"
+
+msgid "Scheduled Date"
+msgstr "የተዘጋጀበት ቀን"
+
+msgid "Scheduled Time"
+msgstr "የተዘጋጀበት ሰዓት"
+
+msgid "Completed Date"
+msgstr "የተጠናቀቀበት ቀን"
+
+msgid "Completed Time"
+msgstr "የተጠናቀቀበት ሰዓት"

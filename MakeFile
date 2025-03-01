@@ -1,0 +1,27 @@
+# Makefile for Django project
+
+# Run all migrations
+migrate:
+	python3 manage.py migrate
+
+# Create new migrations
+makemigrations:
+	python3 manage.py makemigrations
+
+# Run the development server
+runserver:
+	python3 manage.py runserver
+
+# Run all migrations and start the server
+run: migrate runserver
+
+# Create new migrations and run all migrations
+migrate-all: makemigrations migrate
+
+# Shortcut for running everything
+all: migrate-all runserver
+
+# Clean up pycache and migrations (optional)
+clean:
+	find . -type d -name "__pycache__" -exec rm -r {} +
+	find . -type f -name "*.pyc" -delete

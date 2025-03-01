@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-01 20:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+
+msgid "Middle Name"
+msgstr "Maqaa Abbaa"
+
+msgid "Role"
+msgstr "Dhaaba"
+
+msgid "Phone Number"
+msgstr "Lakkoofsa Bilbila"
+
+msgid "City"
+msgstr "Magaalaa"
+
+msgid "Sub City"
+msgstr "Magaalaa Giddu Galeessaa"
+
+msgid "Woreda"
+msgstr "Woreda"
+
+msgid "Ketena"
+msgstr "Qeexee"
+
+msgid "House Number"
+msgstr "Lakkoofsa Manaa"
+
+msgid "Customer"
+msgstr "Fayyadamaa"
+
+msgid "Driver"
+msgstr "Konkolaachisaa"
+
+msgid "Admin"
+msgstr "Manaaji"
+
+msgid "Regulatory Body"
+msgstr "Qaama Murtii"
+
+msgid "License Number"
+msgstr "Lakkoofsa Hayyama"
+
+msgid "Device Type"
+msgstr "Gosa Meeshaa"
+
+msgid "Plate Number"
+msgstr "Lakkoofsa Konkolaataa"
+
+msgid "Item"
+msgstr "Wanta"
+
+msgid "Measurement"
+msgstr "Qixa"
+
+msgid "Quantity"
+msgstr "Baay'ina"
+
+msgid "Unit Price"
+msgstr "Gatii Tokko"
+
+msgid "Total Price"
+msgstr "Gatii Waliigalaa"
+
+msgid "Assigned Date"
+msgstr "Guyyaa Iccitame"
+
+msgid "Assigned Time"
+msgstr "Sa'aatii Iccitame"
+
+msgid "Status"
+msgstr "Haala"
+
+msgid "Scheduled"
+msgstr "Iccitame"
+
+msgid "In Transit"
+msgstr "Imala Keessa"
+
+msgid "Delivered to Customer"
+msgstr "Fayyadamaatti Dhiyeeffame"
+
+msgid "Delivered to Team Leader"
+msgstr "Hoggantaa Gareetti Dhiyeeffame"
+
+msgid "Scheduled Date"
+msgstr "Guyyaa Iccitame"
+
+msgid "Scheduled Time"
+msgstr "Sa'aatii Iccitame"
+
+msgid "Completed Date"
+msgstr "Guyyaa Xumurrame"
+
+msgid "Completed Time"
+msgstr "Sa'aatii Xumurrame"
