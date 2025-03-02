@@ -118,3 +118,48 @@ class DriverScheduleViewSet(viewsets.ModelViewSet):
         # Filter schedules based on the authenticated driver's profile
         driver_profile = self.request.user.profile
         return Schedule.objects.filter(assign__driver__profile=driver_profile)
+
+#----------------to allow the regulatorybody to download completed orders-----
+from django.http import HttpResponse
+from openpyxl import Workbook
+from django.shortcuts import get_object_or_404
+
+def download_completed_orders(request, regulatory_body_id):
+    # Fetch the regulatory body
+    regulatory_body = get_object_or_404(RegulatoryBody, id=regulatory_body_id)
+    
+    # Fetch all completed orders
+    completed_orders = CompletedOrder.objects.all()
+
+    # Create a new Excel workbook and add a worksheet
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Completed Orders"
+
+    # Add headers
+    ws.append([
+        "Order ID", "Item", "Quantity", "Unit Price", "Total Price",
+        "Customer", "Driver", "Completed Date", "Completed Time"
+    ])
+
+    # Add data rows
+    for order in completed_orders:
+        ws.append([
+            order.assign.order.id,
+            order.assign.order.item,
+            order.assign.order.quantity,
+            order.assign.order.unit_price,
+            order.assign.order.total_price,
+            order.assign.order.customer.profile.user.get_full_name(),
+            order.assign.driver.profile.user.get_full_name(),
+            order.completed_date,
+            order.completed_time,
+        ])
+
+    # Create a response with the Excel file
+    response = HttpResponse(content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+    response['Content-Disposition'] = f'attachment; filename=completed_orders_{regulatory_body.name}.xlsx'
+    
+    # Save the workbook to the response
+    wb.save(response)
+    return response
